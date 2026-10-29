@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data & Checkpoints
+data/*.csv
+data/*.jsonl
+checkpoints/
+merged_model/
+ollama_export/
+*.gguf
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Logs & Metrics
+*.log
+training_log.jsonl
+evaluation_results.json
+wandb/
+runs/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# IDE & OS
+.DS_Store
+.vscode/
+.idea/
+
